@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
               <h1 className="text-white text-xl font-bold">Samuel Felipe</h1>
             </div>
             <p className="text-gray-400 max-w-sm mx-auto md:mx-0 mb-8 text-sm md:text-base">
-              Estrategista Digital especializado em transformar investimento em mídia em resultados concretos.
+              Estrategista Digital focado em simplificar o crescimento do seu negócio através de resultados reais.
             </p>
             <div className="flex justify-center md:justify-start gap-4">
               <a href="https://www.linkedin.com/in/samufeelipe/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 glass-card rounded-lg flex items-center justify-center text-gray-400 hover:text-white hover:border-yellow-500/50 transition-all"><Linkedin size={18} /></a>

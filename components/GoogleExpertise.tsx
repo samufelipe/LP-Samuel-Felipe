@@ -6,19 +6,19 @@ const GoogleExpertise: React.FC = () => {
   return (
     <section className="py-24 md:py-36 relative overflow-hidden">
       {/* Background radial glow for focus */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[80%] h-[80%] bg-yellow-500/5 blur-[160px] rounded-full pointer-events-none"></div>
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[80%] h-[80%] bg-transparent pointer-events-none"></div>
 
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         <div className="text-center mb-20 md:mb-24">
-          <div className="inline-flex items-center gap-3 bg-white/5 border border-white/10 px-5 py-2.5 rounded-full mb-8 backdrop-blur-md">
+          <div className="inline-flex items-center gap-3 border border-white/5 px-5 py-2.5 rounded-full mb-8">
             <Award size={16} className="text-yellow-500 animate-pulse" />
             <span className="text-[10px] md:text-xs font-black uppercase tracking-[0.3em] text-yellow-500/90">Autoridade Validada</span>
           </div>
-          <h2 className="text-4xl md:text-7xl font-black mb-8 tracking-tighter leading-[0.9]">
-            Expertise Certificada <br /><span className="gold-gradient">Google Partner</span>
+          <h2 className="text-4xl md:text-6xl font-black mb-8 text-white">
+            Estratégias Validadas <br className="hidden md:block" /><span className="gold-gradient">Google Partner</span>
           </h2>
-          <p className="text-gray-400 max-w-2xl mx-auto text-lg md:text-xl font-light leading-relaxed">
-            Reconhecimento oficial que garante estratégias baseadas nas melhores práticas e acesso prioritário às tecnologias de IA do Google.
+          <p className="text-gray-400 max-w-2xl mx-auto text-base md:text-lg font-light">
+            Acesso às melhores ferramentas e práticas do Google para garantir que o seu investimento seja utilizado da forma mais inteligente e simples possível.
           </p>
         </div>
 
@@ -26,7 +26,7 @@ const GoogleExpertise: React.FC = () => {
           {/* Main Certification Card - The "Seal" */}
           <div className="lg:col-span-5 relative group">
             <div className="absolute -inset-1 bg-gradient-to-b from-yellow-500/20 to-transparent rounded-[3rem] blur-xl opacity-0 group-hover:opacity-100 transition-duration-700"></div>
-            <div className="relative h-full glass-card rounded-[3rem] p-10 md:p-14 flex flex-col items-center justify-center text-center border-white/10 overflow-hidden">
+            <div className="relative h-full glass-card rounded-[3rem] p-10 md:p-14 flex flex-col items-center justify-center text-center border-white/5 overflow-hidden">
               <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-yellow-500/40 to-transparent"></div>
               
               <div className="bg-white p-10 rounded-[2.5rem] mb-10 shadow-[0_20px_50px_rgba(255,255,255,0.1)] group-hover:scale-105 transition-transform duration-700">
@@ -40,9 +40,9 @@ const GoogleExpertise: React.FC = () => {
                 </div>
               </div>
               
-              <h3 className="text-2xl md:text-3xl font-black mb-4 tracking-tight">Professional Strategist</h3>
-              <p className="text-gray-500 text-sm md:text-base leading-relaxed font-medium">
-                Selo oficial que valida expertise avançada em arquitetura de dados e campanhas de alta performance.
+              <h3 className="text-2xl md:text-3xl font-black mb-4">Estrategista Certificado</h3>
+              <p className="text-gray-500 text-sm md:text-base font-medium">
+                Selo que garante o domínio das ferramentas certas para simplificar o seu crescimento digital.
               </p>
             </div>
           </div>
@@ -50,12 +50,12 @@ const GoogleExpertise: React.FC = () => {
           {/* Side Cards Column */}
           <div className="lg:col-span-7 flex flex-col gap-8">
             {/* Specializations Card */}
-            <div className="glass-card rounded-[2.5rem] p-10 border-white/10 relative overflow-hidden group">
+            <div className="glass-card rounded-[2.5rem] p-10 border-white/5 relative overflow-hidden group">
               <div className="flex items-center gap-4 mb-10">
                 <div className="w-12 h-12 rounded-xl bg-yellow-500/10 flex items-center justify-center text-yellow-500 border border-yellow-500/20">
                   <Sparkles size={24} />
                 </div>
-                <h4 className="text-xl font-black uppercase tracking-[0.2em] text-white">Domínio Técnico</h4>
+                <h4 className="text-xl font-black uppercase tracking-[0.2em] text-white">Como eu ajudo</h4>
               </div>
               
               <div className="grid md:grid-cols-1 gap-8">
@@ -90,7 +90,7 @@ const GoogleExpertise: React.FC = () => {
             </div>
 
             {/* Guarantees Card */}
-            <div className="glass-card rounded-[2.5rem] p-10 border-white/10 bg-gradient-to-br from-white/[0.03] to-transparent">
+            <div className="glass-card rounded-[2.5rem] p-10 border-white/5">
               <div className="flex items-center gap-4 mb-8">
                 <div className="w-12 h-12 rounded-xl bg-yellow-500/10 flex items-center justify-center text-yellow-500 border border-yellow-500/20">
                   <Shield size={24} />
@@ -120,7 +120,7 @@ const GoogleExpertise: React.FC = () => {
         {/* Bottom Banner - The Prestige Bar */}
         <div className="relative mt-16 group">
           <div className="absolute -inset-0.5 bg-gradient-to-r from-transparent via-yellow-500/20 to-transparent rounded-3xl blur opacity-30 group-hover:opacity-60 transition-opacity"></div>
-          <div className="relative glass-card rounded-3xl p-8 md:p-12 text-center border-white/10 backdrop-blur-2xl">
+          <div className="relative glass-card rounded-3xl p-8 md:p-12 text-center border-white/5">
             <h4 className="text-xl md:text-3xl font-black mb-3 tracking-tight">
               Estratégia Certificada + <span className="gold-gradient">4 Anos de Campo</span>
             </h4>
